@@ -2,15 +2,15 @@ package org.example;
 
 public class Location {
     String restroId;
-    int latx;
+    int lati;
     int lony;
 
     public void setRestroId(String restroId) {
         this.restroId = restroId;
     }
 
-    public void setLatx(int latx) {
-        this.latx = latx;
+    public void setLati(int lati) {
+        this.lati = lati;
     }
 
     public void setLony(int lony) {
@@ -21,8 +21,8 @@ public class Location {
         return restroId;
     }
 
-    public int getLatx() {
-        return latx;
+    public int getLati() {
+        return lati;
     }
 
     public int getLony() {
@@ -34,7 +34,7 @@ public class Location {
     {
         return "Location{" +
                 "restroId='" + restroId + '\'' +
-                ", latx=" + latx +
+                ", lati=" + lati +
                 ", lony=" + lony +
                 '}';
     }

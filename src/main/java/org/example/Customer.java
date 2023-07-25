@@ -1,10 +1,10 @@
 package org.example;
 
-public class customer {
+public class Customer {
     String phoneNo;
     String userName;
     String address;
-    String email;
+    String mail;
 
     public String getPhoneNo() {//Methods --every class should have atleast 2 methods
         return phoneNo;
@@ -30,12 +30,12 @@ public class customer {
         return address;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setMail(String mail) {
+        this.mail = mail;
 
     }
 
-    public String getEmail() {
-        return email;
+    public String getMail() {
+        return mail;
     }
 }

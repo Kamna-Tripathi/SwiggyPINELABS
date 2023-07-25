@@ -1,5 +1,5 @@
 package org.example;
 
-public class payment {
+public class Payment {
 
 }

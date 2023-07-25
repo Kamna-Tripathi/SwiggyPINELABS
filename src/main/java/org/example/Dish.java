@@ -1,16 +1,16 @@
 package org.example;
 
-public class dish {
+public class Dish {
 
 
 
 
 
-    String id; //@ID
+    String id;
 
     String restroId;
     String name;
-    //String description;
+
     float price;
 
     public void setRestroId(String restroId) {

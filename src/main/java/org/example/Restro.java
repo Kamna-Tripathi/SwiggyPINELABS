@@ -11,7 +11,7 @@ public class Restro {
     String name;
     Location location;
     List<Dish> menu;
-    Review[] reviews;
+
 
     public void setId(String id) {
         this.id = id;
@@ -29,9 +29,7 @@ public class Restro {
         this.menu = menu;
     }
 
-    public void setReviews(Review[] reviews) {
-        this.reviews = reviews;
-    }
+
 
     public String getId() {
         return id;
@@ -49,9 +47,7 @@ public class Restro {
         return menu;
     }
 
-    public Review[] getReviews() {
-        return reviews;
-    }
+
 
     @Override
     public String toString() {
@@ -60,7 +56,7 @@ public class Restro {
                 ", name='" + name + '\'' +
                 ", location=" + location +
                 ", menu=" + menu +
-                ", reviews=" + Arrays.toString(reviews) +
+
                 '}';
     }
 }

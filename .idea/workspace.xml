@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="614b9ff6-6849-4c5e-9bb0-79fa46bfa67e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Restro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/restro.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dish.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/location.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/restro.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Restro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Restro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Payment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +51,7 @@
 }</component>
   <component name="RunManager">
     <configuration name="swiggyapp" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="org.example.app" />
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="swiggypinelabs" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690198622107</updated>
       <workItem from="1690198623095" duration="6922000" />
-      <workItem from="1690289108022" duration="299000" />
+      <workItem from="1690289108022" duration="2444000" />
     </task>
     <servers />
   </component>
